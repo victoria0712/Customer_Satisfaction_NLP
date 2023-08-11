@@ -1,6 +1,6 @@
 # Customer_Satisfaction_NLP
 
-## 1. Introduction
+## Introduction
 This GitHub repository showcases a project that focuses on sentiment analysis for effective customer satisfaction measurement. The solution offers an efficient and data-driven approach to evaluating customer service performance, enabling businesses to gain valuable insights into customer sentiment.
 
 ## Project Highlights
