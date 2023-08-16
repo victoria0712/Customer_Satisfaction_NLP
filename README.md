@@ -14,6 +14,8 @@ The dataset consists of customer reviews and ratings, with 5 labels ranging from
 
 To achieve effective result summarization and communication, the 'Rate' scale has been discretely categorized into three distinct classes: 'negative', 'neutral', and 'positive'. This categorization allows for streamlined interpretation of the results and promotes response consistency.
 
+The data was split into training, validation, and test sets using the train_test_split function from scikit-learn. To ensure a balanced representation of sentiment categories, stratification was employed. Initially, the dataset was divided into a training set and a temporary test set, maintaining the 'Sentiment' distribution through a 70-30 split. Subsequently, the temporary test set was further separated into a validation set and a final test set using a 50-50 split, once again upholding the 'Sentiment' distribution.
+
 The BERT-based model 'bert-base-cased' is employed for sentiment analysis. Using 'bert-base-cased' is motivated by the consideration that capitalized letters convey stronger tones in customer reviews.
 
 ## Hyperparameters
