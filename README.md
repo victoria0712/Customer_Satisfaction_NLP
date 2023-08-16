@@ -29,13 +29,14 @@ Given the relatively small dataset, the following hyperparameters were utilized 
 The trained model achieved the following performance on the test set:
 
 
-          precision    recall  f1-score   support
+|          | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| negative | 0.71      | 1.00   | 0.83     | 10      |
+| neutral  | 0.00      | 0.00   | 0.00     | 3       |
+| positive | 0.99      | 0.98   | 0.98     | 90      |
+|----------|-----------|--------|----------|---------|
+| accuracy |           |        |          | 0.95    |
 
-negative       0.71      1.00      0.83        10
- neutral       0.00      0.00      0.00         3
-positive       0.99      0.98      0.98        90
-
-accuracy                           0.95       103
 
 ## Conclusion
 
